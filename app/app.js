@@ -1,9 +1,3 @@
-/***********************************************************
-* Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
-* License: MIT License                                     *
-***********************************************************/
-
 var siteHeaderText = {};
 
 var downGit = angular.module('downGit', [
@@ -14,7 +8,7 @@ var downGit = angular.module('downGit', [
 
 downGit.config([
     '$routeProvider',
-    
+
     function($routeProvider) {
         $routeProvider
             .when('/', {
@@ -28,7 +22,7 @@ downGit.config([
 
 downGit.config([
     'toastrConfig',
-    
+
     function(toastrConfig) {
         angular.extend(toastrConfig, {
             positionClass: 'toast-bottom-right',
